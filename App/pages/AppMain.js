@@ -57,7 +57,7 @@ class AppMain extends Component {
 			    <Cart {...this.props}/>
 			  </TabNavigator.Item>
 			  <TabNavigator.Item
-			  	title="我的"
+			  	title="我的资料"
 			    selected={this.state.selectedTab === 'center'}
 			    selectedTitleStyle={styles.selectedTextStyle}
 			    titleStyle={styles.textStyle}
